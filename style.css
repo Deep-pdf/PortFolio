@@ -1,23 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Noto+Serif+Dives+Akuru&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Anton&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif+Dives+Akuru&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
 * {
     margin: 0;
     padding: 0;
 }
 
-main1 {
-    height: 100vh;
-    width: 100vw;
-    display: flex;
+.main1 {
+    position: relative;
     background-color: black;
+    height: 100vh;
+    width: 100%;
+    /* display: flex; */
+
 }
 
-.nav{
+.nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 220px;
-    width: 100vw;
+    height: 30%;
+    width: 100%;
 }
 
 .portfolio {
@@ -52,5 +54,83 @@ main1 {
     padding-top: 50px;
     padding-right: 80px;
     /* align-items: center; */
-    
+
+}
+
+.main1body {
+    width: 70%;
+    height: 70%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.main1text {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    color: #EBD800;
+    font-size: 130px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.high {
+    color: black;
+    position: relative;
+    z-index: 1;
+    /* /* border: 10px solid white; * */
+    padding: 0 20px;
+}
+
+.high::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 100%;
+    height: 100%;
+    /* adjust to fit text */
+    background: white;
+    z-index: -1;
+    border-radius: 20px;
+}
+
+.secline {
+    font-family: "Alex Brush", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 180px;
+}
+
+/* .dp1back{
+    position: ;
+} */
+
+.v2 {
+    position: absolute;
+    height: 680px;
+    right: 0px;
+    top: 150px;
+    z-index: 1;
+}
+
+.v3 {
+    position: absolute;
+    right: 0px;
+    top: 200px;
+    height: 680px;
+}
+
+.dp1 {
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    height: 820px;
+    z-index: 10;
+    mix-blend-mode: luminosity;
 }
