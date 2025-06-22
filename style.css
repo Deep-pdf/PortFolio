@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Anton&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif+Dives+Akuru&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Alex+Brush&family=Anton&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karantina:wght@300;400;700&family=Noto+Serif+Dives+Akuru&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
 * {
     margin: 0;
@@ -133,4 +133,103 @@
     height: 820px;
     z-index: 10;
     mix-blend-mode: luminosity;
+}
+
+.main2 {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.v5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.line1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    display: flex;
+    align-items: baseline;
+    flex-direction: row;
+    color: white;
+    font-size: 37px;
+    height: 100px;
+
+}
+
+.hey {
+    margin-right: 10px;
+}
+
+.iam {
+    font-size: 90px;
+
+}
+
+.line2 {
+    font-size: 220px;
+    color: white;
+    font-family: "Karantina", system-ui;
+    font-weight: 700;
+    font-style: normal;
+    height: 180px;
+    width: 850px;
+}
+
+.line3 {
+    font-size: 240px;
+    height: 220px;
+    font-family: "Karantina", system-ui;
+    font-weight: 700;
+    font-style: normal;
+    -webkit-text-stroke: 2px white;
+}
+
+.main2text {
+    position: absolute;
+    top: 50px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+
+.v4 {
+    position: absolute;
+    bottom: 0px;
+    z-index: 9;
+}
+
+.dp2 {
+    height: 65%;
+    /* position: absolute; */
+    z-index: 5;
+    left: 500px;
+}
+
+.main2bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0px;
+    /* height: 180px; */
+}
+
+.exp {
+    font-family: "Aldrich", sans-serif;
+
+    font-weight: 400;
+    font-style: normal;
+    font-size: 150px;
+    z-index: 10;
+
 }
