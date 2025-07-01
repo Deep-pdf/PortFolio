@@ -6,9 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css" class="rel">
+    <link rel="stylesheet" href="animation.css" class="rel">
 </head>
 
 <body>
+    <div id="splash">
+        <h1 class="logo-header">
+            <span class="logoS">Dead</span><span class="logoS">Deep</span>
+        </h1>
+        <div class="spinner"></div>
+    </div>
+
     <div class="main1" id="main1">
         <div class="nav">
             <div class="portfolio">
@@ -66,11 +74,6 @@
     </div>
 
     <div class="main3" id="main3">
-        <!-- <img src="assets/dp2.png" alt="" class="dp2">
-        <div class="main3top">
-            <div class="exp">Experience</div>
-            <img src="assets/SVGS/topv6.svg" alt="" class="v6">
-        </div> -->
         <div class="education">
             <div class="titl1">
                 <img src="assets/title1.png" alt="" class="v10">
@@ -82,7 +85,7 @@
                     <img src="assets/okkka 1.png" alt="" class="eduimg">
                 </div>
 
-            </div> 
+            </div>
         </div>
 
         <div class="experience">
@@ -100,7 +103,17 @@
         </div>
     </div>
 
-    <script src="scrpit.js"></script>
+    <script src="script.js"></script>
+
+      <!-- <script>
+    window.addEventListener('load', () => {
+      const splash = document.getElementById('splash');
+      setTimeout(() => {
+        splash.classList.add('slide-up');
+      }, 1000);
+    });
+  </script> -->
+
 </body>
 
 </html>
