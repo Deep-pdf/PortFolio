@@ -1,0 +1,35 @@
+@media ( max-width: 768px){
+    .main1{
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .nav{
+        display: flex;
+        flex-direction: column;
+        height: 20%;
+    }
+
+    .portfolio{
+        width: 80%;
+        height: 70%;
+    }
+
+    .v1{
+        height: 100%;
+    }
+
+    .portfolio .text{
+        font-size: 3rem;
+        left: 1.8rem;
+    }
+
+    .navbar{
+        padding: 15px;
+        gap: 5vw;
+    }
+
+    .dp1back{
+        height: 60%;
+    }
+}

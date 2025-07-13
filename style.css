@@ -13,8 +13,9 @@ html {
     position: relative;
     background-color: black;
     height: 100vh;
-    width: 100%;
-    /* display: flex; */
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
 
 }
 
@@ -22,18 +23,26 @@ html {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 30%;
+    height: 25%;
     width: 100%;
 }
 
 .portfolio {
     position: relative;
     display: inline-block;
-    height: 220px;
+    width: 45%;
+    height: 100%;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
 }
 
 .v1 {
-    height: 220px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+
 }
 
 .portfolio .text {
@@ -42,9 +51,10 @@ html {
     font-style: normal;
     position: absolute;
     color: black;
-    font-size: 120px;
-    top: 20px;
-    left: 40px;
+    font-size: clamp(3rem,5vw,7.5rem);
+    top: 50%;
+    transform: translateY(-50%);
+    left: 3rem;
 }
 
 .flower {
@@ -59,12 +69,12 @@ html {
 
 .navbar {
     display: flex;
-    gap: 50px;
+    gap: clamp(1rem,2vw,3rem);
     color: white;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 25px;
+    font-size: clamp(0.8rem,2vw,1.5rem);
     padding-top: 50px;
     padding-right: 80px;
     /* align-items: center; */
@@ -82,13 +92,29 @@ html {
 
 }
 
+.main1-content{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    height: 100%;
+    justify-content: space-between;
+
+}
+
 .main1body {
-    width: 70%;
+    width: 65%;
     height: 70%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+}
 
+.dp1back{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    /* width: 25%; */
+    height: 90%;
 }
 
 .main1text {
@@ -96,7 +122,7 @@ html {
     flex-direction: column;
     text-align: right;
     color: #FDB314;
-    font-size: 130px;
+    font-size: 7rem;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;
@@ -129,12 +155,8 @@ html {
     font-weight: 400;
     font-style: normal;
     color: white;
-    font-size: 180px;
+    font-size: 10rem;
 }
-
-/* .dp1back{
-    position: ;
-} */
 
 .v2 {
     position: absolute;
