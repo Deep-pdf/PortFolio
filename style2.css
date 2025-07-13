@@ -1,35 +1,74 @@
-@media ( max-width: 768px){
-    .main1{
+@media (max-width: 768px) {
+
+    html,
+    body {
         width: 100vw;
-        height: 100vh;
+        overflow-x: hidden;
+        box-sizing: border-box;
     }
 
-    .nav{
+    .nav {
         display: flex;
         flex-direction: column;
         height: 20%;
     }
 
-    .portfolio{
+    .portfolio {
         width: 80%;
         height: 70%;
     }
 
-    .v1{
+    .v1 {
         height: 100%;
     }
 
-    .portfolio .text{
+    .portfolio .text {
         font-size: 3rem;
         left: 1.8rem;
     }
 
-    .navbar{
+    .navbar {
         padding: 15px;
-        gap: 5vw;
+        gap: 3.5vw;
     }
 
-    .dp1back{
-        height: 60%;
+    .dp1back {
+        height: 50%;
     }
+
+    .main1text,
+    .secline,
+    .line2,
+    .line3 {
+        font-size: 2.4rem;
+        width: 100vw;
+        word-break: break-word;
+    }
+
+    .main1-content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main1text{
+        padding: 1rem;
+    }
+
+     .secline{
+        font-size: 4rem;
+    }
+
+    .main1body{
+        width: 100%;
+        height: 40%;
+    }
+
+    .high::before{
+        border-radius: 10px;
+        bottom: -5px;
+        width: 90%;
+        left: 5px;
+    }
+
+   
 }
