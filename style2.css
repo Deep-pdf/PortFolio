@@ -5,12 +5,17 @@
         width: 100vw;
         overflow-x: hidden;
         box-sizing: border-box;
+
+    }
+
+    .main1 {
+        height: 90vh;
     }
 
     .nav {
         display: flex;
         flex-direction: column;
-        height: 20%;
+        height: 23%;
     }
 
     .portfolio {
@@ -37,38 +42,82 @@
     }
 
     .main1text,
-    .secline,
-    .line2,
-    .line3 {
+    .secline {
         font-size: 2.4rem;
         width: 100vw;
         word-break: break-word;
     }
 
-    .main1-content{
+    .main1-content {
         display: flex;
         flex-direction: column;
     }
 
-    .main1text{
+    .main1text {
         padding: 1rem;
     }
 
-     .secline{
+    .secline {
         font-size: 4rem;
     }
 
-    .main1body{
+    .main1body {
         width: 100%;
-        height: 40%;
+        height: 50%;
     }
 
-    .high::before{
+    .high::before {
         border-radius: 10px;
         bottom: -5px;
         width: 90%;
         left: 5px;
     }
 
-   
+    .v5 {
+        width: 60%;
+        padding-top: 5%;
+
+    }
+
+    .dp2 {
+        height: 40%;
+        left: 30px;
+    }
+
+    .v4 {
+        height: 100%;
+        width: 100%;
+    }
+
+    .main2bottom {
+        height: 8%;
+        width: 150%;
+        transform: translateX(12%);
+    }
+
+    .why {
+        transform: translateX(-10%);
+    }
+
+    .line1 {
+        flex-direction: column;
+        width: 100%;
+        line-height: 2;
+    }
+
+    .iam{
+        line-height: 1.5;
+    }
+
+    .line2{
+        width: 100%;
+    }
+
+    .line3{
+        flex-direction: column;
+    }
+
+    .main2text{
+        padding-left: 10%;
+    }
 }

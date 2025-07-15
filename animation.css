@@ -61,8 +61,13 @@
 }
 
 @keyframes spin {
-  from { transform: rotate(0deg); }
-  to   { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .navbutt {
@@ -87,5 +92,23 @@
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+.dp1back {
+  transform: translateX(100px);
+  opacity: 0;
+  animation: slideIn 1s cubic-bezier(0.17, 0, 0, 0.99) forwards;
+  animation-delay: 2s;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
   }
 }
