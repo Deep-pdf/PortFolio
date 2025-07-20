@@ -343,6 +343,8 @@ body {
 .v8 {
     height: 100%;
     width: 100%;
+    background-color: white;
+    border-radius: 3rem;
 }
 
 .mainbox2 {

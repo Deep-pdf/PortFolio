@@ -102,7 +102,7 @@
     .line1 {
         flex-direction: column;
         width: 100%;
-        line-height: 2;
+        line-height: 1.5;
     }
 
     .iam{
@@ -115,9 +115,48 @@
 
     .line3{
         flex-direction: column;
+        line-height: 1;
     }
 
     .main2text{
         padding-left: 10%;
+        transform: translateY(3rem);
+    }
+
+    .main3{
+        height: 100vh;
+    }
+
+    .education{
+        height: 50%;
+        width:90vw;
+        padding: 20px;
+    }
+
+    .experience{
+        height: 50%;
+        width: 90vw;
+        padding: 20px;
+
+    }
+
+    .titl1, .titl2{
+        width: 50%;
+    }
+
+    .mainbox1{
+        height:60%;
+    }
+
+    .v8{
+        border-radius: 2rem;
+    }
+
+    .innerbox, .innerbox2{
+        height: 80%;
+    }
+
+    .mainbox2{
+        height: 60%;
     }
 }
