@@ -57,5 +57,38 @@ window.addEventListener('DOMContentLoaded', () => {
       );
 
       observer.observe(icon);
-
 })
+
+// Animation logic for dominant project box
+
+document.addEventListener('DOMContentLoaded', function() {
+    const proboxes = document.querySelectorAll('.probox');
+    const containers = [
+        document.querySelector('.motion-container'),
+        document.querySelector('.efx-container'),
+        document.querySelector('.documentary-container')
+    ];
+
+    function setDominant(selected) {
+        proboxes.forEach((box, idx) => {
+            if (box === selected) {
+                box.classList.add('dominant');
+                containers[idx].style.display = 'block';
+            } else {
+                box.classList.remove('dominant');
+                containers[idx].style.display = 'none';
+            }
+        });
+    }
+
+    // Set the first as dominant by default
+    if (proboxes.length > 0) {
+        setDominant(proboxes[0]);
+    }
+
+    proboxes.forEach(box => {
+        box.addEventListener('click', function() {
+            setDominant(box);
+        });
+    });
+});

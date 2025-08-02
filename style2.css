@@ -159,4 +159,33 @@
     .mainbox2{
         height: 60%;
     }
+
+        .main5{
+        overflow-x: hidden;
+    }
+
+    .bodycontent{
+        width: 95%;
+        height: 62%;
+    }
+
+    .main5-title{
+        top: 5rem;
+    }
+
+    .titlesss{
+        gap: 0.5rem;
+    }
+
+    .probox{
+        border-radius: 1rem 1rem 0 0;
+    }
+    
+    .probox.dominant{
+        height: 4rem;
+    }
+
+    .probox:not(.dominant){
+        height: 2.5rem;
+    }
 }
