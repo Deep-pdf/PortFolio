@@ -1,3 +1,6 @@
+.titlesss {
+    
+}
 @import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Alex+Brush&family=Anton&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karantina:wght@300;400;700&family=Noto+Serif+Dives+Akuru&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
 * {
@@ -398,7 +401,7 @@ body {
 }
 
 .main5 {
-    height: 100vh;
+    height: 130vh;
     width: 100%;
     background-color: black;
     display: flex;
@@ -412,7 +415,7 @@ body {
     font-family: "Aldrich", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: clamp(4rem, 10vw, 7rem);
+    font-size: clamp(4rem, 6vw, 7rem);
     color: #FDB314;
     position: absolute;
     top: 2rem;
@@ -420,19 +423,23 @@ body {
 
 .bodycontent {
     width: 70%;
-    height: 60%;
+    height: 65%;
     /* border-radius: 2rem; */
     background-color: #FDB314;
 }
 
 .titlesss {
     display: flex;
+    justify-content: center;
     gap: 5rem;
+    width: clamp(25rem,66%,80rem);
+    /* height: 30rem; */
+    align-items: flex-end;
 }
 
 .probox {
-    height: clamp(2rem, 100vw, 6rem);
-    width: clamp(4rem, 30.5vw, 22rem);
+    height: clamp(1rem, 100vw, 6rem);
+    width: clamp(2rem, 30.5vw, 22rem);
     border-radius: 2rem 2rem 0 0;
     background-color: #FDB314;
     /* text-align: center; */
@@ -448,7 +455,7 @@ body {
     font-family: "Aldrich", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: clamp(0.5rem, 4vw, 2rem);
+    font-size: clamp(0.5rem, 3vw, 2rem);
     transition: color 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -466,21 +473,118 @@ body {
     z-index: 1;
 }
 
-.Body{
+.Body {
     height: 100%;
     width: 100%;
 }
 
-.v11,.v22,.v33{
-    /* height: 100%; */
+.v11,
+.v22,
+.v33 {
+    max-width: 100%;
+    height: 100%;
+}
+
+.container {
     width: 100%;
+    height: 100%;
+    overflow-y: auto;
 }
 
-.container{
-    height: 70%;
-    padding: 4rem;
+
+    .masonry {
+      columns: 3;          
+      column-gap: 1rem;    
+      /* max-width: 1200px; */
+      margin: auto;
+      padding: 1rem;
+    }
+
+    .masonry video {
+      display: inline-block;  
+      width: 100%;            
+      max-width: 100%;        
+      height: auto;           
+      margin-bottom: 1rem;
+      border-radius: 8px;
+      background: #000;       
+    }
+
+
+.thoragap{
+    height: 20vh;
+    background-color: black;
 }
 
-.titlesss {
-    align-items: flex-end;
+.main6 {
+    height: 100vh;
+}
+
+.main6-part1 {
+    height: 55%;
+    background-color: black;
+    position: relative;
+}
+
+.main6-part2 {
+    height: 45%;
+    background-color: #EBD800;
+
+}
+
+.videos2 {
+    height: 50%;
+}
+
+.media-box {
+    width: 100%;
+    height: 40%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: clamp(0.5rem, 8vw, 8rem);
+    padding-left: 8rem;
+}
+
+.part1-text-container {
+    width: 60%;
+    height: 60%;
+    top: 50%;
+    left: 10%;
+    transform: translate(0, -50%);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 0.8;
+
+}
+
+.linee1 {
+    font-family: 'Karantina', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: clamp(5.8rem, 10vw, 12.5rem);
+
+}
+
+.linee2 {
+    font-family: 'Karantina', sans-serif;
+    font-weight: 400;
+    font-size: clamp(7.3rem, 13vw, 16.5rem);
+    font-style: normal;
+    -webkit-text-stroke: 2px white;
+}
+
+.rocket {
+    position: absolute;
+    width: 50%;
+    top: 0;
+    right: 0;
+}
+
+.media-logo {
+    width: clamp(4rem, 7vw, 100%);
 }

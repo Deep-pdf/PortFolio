@@ -188,4 +188,89 @@
     .probox:not(.dominant){
         height: 2.5rem;
     }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .main5 {
+        overflow-x: hidden;
+        height: 97vh;
+    }
+
+    .bodycontent {
+        width: 95%;
+        height: 70%;
+    }
+
+    .main5-title {
+        top: 4rem;
+    }
+
+    .titlesss {
+        gap: 0.5rem;
+        overflow-x: hidden;
+    }
+
+    .probox {
+        border-radius: 1rem 1rem 0 0;
+    }
+
+    .probox.dominant {
+        height: 4rem;
+    }
+
+    .probox:not(.dominant) {
+        height: 2.5rem;
+    }
+
+    .container {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        padding: 0rem;
+        height: 100%;
+    }
+
+    /* .container video {
+        width: 32%;
+        height: auto;
+    } */
+
+    .main6-part1 {
+        height: 65%;
+    }
+
+    .media-box {
+        height: 30%;
+        padding-left: 0;
+        justify-content: center;
+    }
+
+    .part1-text-container {
+        width: 80%;
+        top: 10%;
+        left: 5%;
+        transform: translate(0, 0px);
+        line-height: 0.8;
+    }
+
+    .main6-part2 {
+        height: 35%;
+    }
+
+    .masonry {
+        columns: 2;
+    }
+
+    .thoragap {
+        height: 10vh;
+    }
+
+    .rocket {
+        width: 106%;
+        top: 43%;
+        left: 5%;
+    }
 }
