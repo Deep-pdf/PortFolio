@@ -343,6 +343,44 @@ body {
     position: relative;
 }
 
+.subbb1{
+    color: black;
+    position: absolute;
+    top: 15%;
+    left: 40%;
+    gap: 5rem;
+}
+
+.subb1{
+    font-family: 'Aldrich', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: baseline;
+}
+
+.subb2{
+    font-size: 1rem;
+}
+
+.subb1 div:nth-child(2){
+    font-size: 1rem;
+}
+
+.primary{
+    padding: 20px;
+}
+
+.secondary{
+    padding: 20px;
+}
+
+.graduation{
+    padding: 20px;
+}
+
 .v8 {
     height: 100%;
     width: 100%;

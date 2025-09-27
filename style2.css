@@ -105,87 +105,120 @@
         line-height: 1.5;
     }
 
-    .iam{
+    .iam {
         line-height: 1.5;
     }
 
-    .line2{
+    .line2 {
         width: 100%;
     }
 
-    .line3{
+    .line3 {
         flex-direction: column;
         line-height: 1;
     }
 
-    .main2text{
+    .main2text {
         padding-left: 10%;
         transform: translateY(3rem);
     }
 
-    .main3{
+    .main3 {
         height: 100vh;
     }
 
-    .education{
+    .education {
         height: 50%;
-        width:90vw;
+        width: 90vw;
         padding: 20px;
     }
 
-    .experience{
+    .subbb1 {
+        top: 5%;
+        left: 50%;
+    }
+
+    .subb1 {
+        font-size: 0.9rem;
+        flex-direction: column;
+    }
+
+    .subb1 div:nth-child(2){
+    font-size: 0.5rem;
+}
+
+    .subb2 {
+        font-size: 0.7rem;
+    }
+
+    .primary {
+        padding: 10px;
+    }
+
+    .secondary {
+        padding: 10px;
+    }
+
+    .graduation {
+        padding: 10px;
+    }
+
+
+    .experience {
         height: 50%;
         width: 90vw;
         padding: 20px;
 
     }
 
-    .titl1, .titl2{
+    .titl1,
+    .titl2 {
         width: 50%;
     }
 
-    .mainbox1{
-        height:60%;
-    }
-
-    .v8{
-        border-radius: 2rem;
-    }
-
-    .innerbox, .innerbox2{
-        height: 80%;
-    }
-
-    .mainbox2{
+    .mainbox1 {
         height: 60%;
     }
 
-        .main5{
+    .v8 {
+        border-radius: 2rem;
+    }
+
+    .innerbox,
+    .innerbox2 {
+        height: 80%;
+    }
+
+    .mainbox2 {
+        height: 60%;
+    }
+
+    .main5 {
         overflow-x: hidden;
     }
 
-    .bodycontent{
+    .bodycontent {
         width: 95%;
         height: 62%;
     }
 
-    .main5-title{
+    .main5-title {
         top: 5rem;
     }
 
-    .titlesss{
+    .titlesss {
         gap: 0.5rem;
     }
 
-    .probox{
+    .probox {
         border-radius: 1rem 1rem 0 0;
     }
-    
-    .probox.dominant{
+
+    .probox.dominant {
         height: 4rem;
     }
 
-    .probox:not(.dominant){
+    .probox:not(.dominant) {
         height: 2.5rem;
     }
 
