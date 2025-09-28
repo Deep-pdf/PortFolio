@@ -149,6 +149,7 @@
 
     .subb2 {
         font-size: 0.7rem;
+        padding: 0;
     }
 
     .primary {
@@ -161,6 +162,12 @@
 
     .graduation {
         padding: 10px;
+    }
+
+    .subbb2{
+        width: 50%;
+        left: 2%;
+        top: 5%;
     }
 
 
@@ -183,6 +190,10 @@
     .v8 {
         border-radius: 2rem;
     }
+
+    .internship, .freelancing {
+    padding: 10px;
+}
 
     .innerbox,
     .innerbox2 {
