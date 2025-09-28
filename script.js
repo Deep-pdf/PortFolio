@@ -107,7 +107,7 @@ document.addEventListener('DOMContentLoaded', function () {
         proboxes.forEach((box, idx) => {
             if (box === selected) {
                 box.classList.add('dominant');
-                containers[idx].style.display = 'block';
+                containers[idx].style.display = 'flex';
             } else {
                 box.classList.remove('dominant');
                 containers[idx].style.display = 'none';

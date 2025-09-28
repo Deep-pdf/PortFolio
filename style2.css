@@ -139,7 +139,7 @@
     }
 
     .subb1 {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         flex-direction: column;
     }
 
@@ -148,20 +148,20 @@
 }
 
     .subb2 {
-        font-size: 0.7rem;
+        font-size: 0.6rem;
         padding: 0;
     }
 
     .primary {
-        padding: 10px;
+        padding: 5px;
     }
 
     .secondary {
-        padding: 10px;
+        padding: 5px;
     }
 
     .graduation {
-        padding: 10px;
+        padding: 5px;
     }
 
     .subbb2{
@@ -313,7 +313,7 @@
     }
 
     .rocket {
-        width: 106%;
+        width: 100%;
         top: 43%;
         left: 5%;
     }
